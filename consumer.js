@@ -2,7 +2,7 @@ const kafka = require("kafka-node");
 const client = new kafka.KafkaClient({kafkaHost: "0.0.0.0:9092"});
 const topic = [
   {
-    topic: "message"
+    topic: "test-message"
   }
 ];
 const options = { autoCommit: false };
